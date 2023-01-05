@@ -1,0 +1,15 @@
+//Create a user
+POST http://localhost:5006/users
+Content-Type: application/json
+{
+"surename": "Leyla",
+"firstname":"gahramanova",
+"email": "leylagahramanova@gmail.com",
+"post": "admin",
+"phone":"12434545",
+"password": "123456",
+"confPassword":"123456"
+}
+
+
+
